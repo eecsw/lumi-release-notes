@@ -16,32 +16,20 @@
   <body>
     <h2>Software Release Notes</h2>
 
-    <p><strong>v2.5.0 -- Upcoming Release</strong></p>
-    <ul>
-      <li>New: Language support is added for the web interface: German, Dutch, Swedish, Norwegian, English, Turkish, Danish, Finnish n</li>
-      <li>New: Modbus TCP slave support (disabled by default, activates automatically once a static IP address is configured)</li>
-      <li>New: Help section with guidance on Modbus TCP and static IP setup</li>
-      <li>New: Identify button is added for each luminarie in commissioning mode.</li>
-      <li>New: LED status blinking is limited to one hour post-boot for all non-commissioned units.</li>
-      <li>New: Static IP configuration is added to the commissioning mode.</li>
-      <li>New: First-time commissioning is more reliable on devices with tight memory</li>
-      <li>New: Hardware and firmware compatibility is verified before applying an OTA update, preventing mismatched upgrades</li>
-      <li>New: Login page lockout timer is added for throttling.</li>
-      <li>Improvement: Streamlined the embedded web interface for better usability and cross-device compatibility.</li>
-      <li>Security and stability updates</li>
-    </ul>
-
-    <p><strong>v2.4.5 -- Latest Release</strong></p>
+    <p><strong>v2 hardware products: v2.5.0 -- Latest Release</strong></p>
     <ul>
       <li>New: Language support is added for the web interface: German, Dutch, Swedish, Norwegian, English, Turkish, Danish, Finnish.</li>
-      <li>New: Help section with guidance on Modbus TCP and static IP setup</li>
+      <li>New: Help section with more information how to use the system.</li>
       <li>New: Identify button is added for each luminarie in commissioning mode.</li>
       <li>New: LED status blinking is limited to one hour post-boot for all non-commissioned units.</li>
-      <li>New: First-time commissioning is more reliable on devices with tight memory</li>
-      <li>New: Hardware and firmware compatibility is verified before applying an OTA update, preventing mismatched upgrades</li>
+      <li>New: Memory improvements for the first-time commissioning</li>
       <li>New: Login page lockout timer is added for throttling.</li>
       <li>Improvement: Streamlined the embedded web interface for better usability and cross-device compatibility.</li>
-      <li>Security and stability updates</li>
+      <li>Security and stability updates.</li>
+      <li>Mobile App: Hardware and firmware compatibility is verified before applying an OTA update, preventing mismatched upgrades.</li>
+      <li>Mobile App: Firmware Update section has been moved to the main page.</li>
+      <li>Mobile App: A new button 'Projects' has been added to the main page to search for all projects on the WiFi network.</li>
+      <li>Mobile App: New language options have been added.</li>
     </ul>
 
     <p><strong>v2.1.2</strong></p>
@@ -70,22 +58,23 @@
 
     <br>
 
-    <p><strong>v1.12.0 -- Upcoming Release</strong></p>
+    <p><strong>v1 hardware products: v1.12.0 -- Latest Release</strong></p>
     <ul>
-      <li>New: Language support is added for the web interface: German, Dutch, Swedish, Norwegian, English, Turkish, Danish, Finnish n</li>
-      <li>New: Modbus TCP slave support (disabled by default, activates automatically once a static IP address is configured)</li>
-      <li>New: Help section with guidance on Modbus TCP and static IP setup</li>
+      <li>New: Language support is added for the web interface: German, Dutch, Swedish, Norwegian, English, Turkish, Danish, Finnish.</li>
+      <li>New: Help section with more information how to use the system.</li>
       <li>New: Identify button is added for each luminarie in commissioning mode.</li>
       <li>New: LED status blinking is limited to one hour post-boot for all non-commissioned units.</li>
-      <li>New: Static IP configuration is added to the commissioning mode.</li>
-      <li>New: First-time commissioning is more reliable on devices with tight memory</li>
-      <li>New: Hardware and firmware compatibility is verified before applying an OTA update, preventing mismatched upgrades</li>
+      <li>New: Memory improvements for the first-time commissioning</li>
       <li>New: Login page lockout timer is added for throttling.</li>
       <li>Improvement: Streamlined the embedded web interface for better usability and cross-device compatibility.</li>
-      <li>Security and stability updates</li>
+      <li>Security and stability updates.</li>
+      <li>Mobile App: Hardware and firmware compatibility is verified before applying an OTA update, preventing mismatched upgrades.</li>
+      <li>Mobile App: Firmware Update section has been moved to the main page.</li>
+      <li>Mobile App: A new button 'Projects' has been added to the main page to search for all projects on the WiFi network.</li>
+      <li>Mobile App: New language options have been added.</li>
     </ul>
 
-    <p><strong>v1.9.9 -- Latest Release </strong></p>
+    <p><strong>v1.9.9</strong></p>
     <ul>
       <li>Fixed web server disappearing after a prolong usage of the system</li>
       <li>Added the ability to fetch emergency lighting reports from the local web interface</li>
@@ -117,130 +106,129 @@
       <li>Changed the pin for emergency driver communication</li>
     </ul>
 
-    <h2>Software Compatibility Matrix</h2>
-    <table>
-      <tr>
-        <th></th>
-        <th>v2.5.0</th>
-        <th>v2.4.5</th>
-        <th>v2.1.2</th>
-        <th>v2.0.2</th>
-        <th>v2.0.1</th>
-        <th>v1.12.0</th>
-        <th>v1.9.9</th>
-        <th>v1.6.7</th>
-        <th>v1.5.5</th>
-      </tr>
-      <tr>
-        <th>v2.5.0</th>
-        <td>✔️</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-      </tr>
-       <tr>
-        <th>v2.4.5</th>
-        <td>✔️</td>
-        <td>✔️</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-      </tr>
-      <tr>
-        <th>v2.1.2</th>
-        <td>❌</td>
-        <td>✔️</td>
-        <td>✔️</td>
-        <td>✔️</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-      </tr>
-      <tr>
-        <th>v2.0.2</th>
-        <td>❌</td>
-        <td>✔️</td>
-        <td>✔️</td>
-        <td>✔️</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-      </tr>
-      <tr>
-        <th>v2.0.1</th>
-        <td>❌</td>
-        <td>✔️</td>
-        <td>✔️</td>
-        <td>✔️</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-      </tr>
-      <tr>
-        <th>v1.12.0</th>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>✔️</td>
-        <td>✔️</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-      </tr>
-      <tr>
-        <th>v1.9.9</th>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>✔️</td>
-        <td>✔️</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-      </tr>
-      <tr>
-        <th>v1.6.7</th>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>✔️</td>
-        <td>❌</td>
-        <td>❌</td>
-      </tr>
-      <tr>
-        <th>v1.5.5</th>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>✔️</td>
-      </tr>
-    </table>
-    <p>It is recommended to make sure all luminaries in a system have be the same FW version. Restart the OTA
+<h2>Software Compatibility Matrix</h2>
+<table>
+  <tr>
+    <th></th>
+    <th>v2.5.0</th>
+    <th>v2.4.5</th>
+    <th>v2.1.2</th>
+    <th>v2.0.2</th>
+    <th>v2.0.1</th>
+    <th>v1.12.0</th>
+    <th>v1.9.9</th>
+    <th>v1.6.7</th>
+    <th>v1.5.5</th>
+  </tr>
+  <tr>
+    <th>v2.5.0</th>
+    <td>✔️</td>
+    <td>❌</td>
+    <td>❌</td>
+    <td>❌</td>
+    <td>❌</td>
+    <td>❌</td>
+    <td>❌</td>
+    <td>❌</td>
+    <td>❌</td>
+  </tr>
+  <tr>
+    <th>v2.4.5</th>
+    <td>❌</td>
+    <td>✔️</td>
+    <td>✔️</td>
+    <td>✔️</td>
+    <td>✔️</td>
+    <td>❌</td>
+    <td>❌</td>
+    <td>❌</td>
+    <td>❌</td>
+  </tr>
+  <tr>
+    <th>v2.1.2</th>
+    <td>❌</td>
+    <td>✔️</td>
+    <td>✔️</td>
+    <td>✔️</td>
+    <td>✔️</td>
+    <td>❌</td>
+    <td>❌</td>
+    <td>❌</td>
+    <td>❌</td>
+  </tr>
+  <tr>
+    <th>v2.0.2</th>
+    <td>❌</td>
+    <td>✔️</td>
+    <td>✔️</td>
+    <td>✔️</td>
+    <td>✔️</td>
+    <td>❌</td>
+    <td>❌</td>
+    <td>❌</td>
+    <td>❌</td>
+  </tr>
+  <tr>
+    <th>v2.0.1</th>
+    <td>❌</td>
+    <td>✔️</td>
+    <td>✔️</td>
+    <td>✔️</td>
+    <td>✔️</td>
+    <td>❌</td>
+    <td>❌</td>
+    <td>❌</td>
+    <td>❌</td>
+  </tr>
+  <tr>
+    <th>v1.12.0</th>
+    <td>❌</td>
+    <td>❌</td>
+    <td>❌</td>
+    <td>❌</td>
+    <td>❌</td>
+    <td>✔️</td>
+    <td>❌</td>
+    <td>❌</td>
+    <td>❌</td>
+  </tr>
+  <tr>
+    <th>v1.9.9</th>
+    <td>❌</td>
+    <td>❌</td>
+    <td>❌</td>
+    <td>❌</td>
+    <td>❌</td>
+    <td>❌</td>
+    <td>✔️</td>
+    <td>✔️</td>
+    <td>✔️</td>
+  </tr>
+  <tr>
+    <th>v1.6.7</th>
+    <td>❌</td>
+    <td>❌</td>
+    <td>❌</td>
+    <td>❌</td>
+    <td>❌</td>
+    <td>❌</td>
+    <td>✔️</td>
+    <td>✔️</td>
+    <td>✔️</td>
+  </tr>
+  <tr>
+    <th>v1.5.5</th>
+    <td>❌</td>
+    <td>❌</td>
+    <td>❌</td>
+    <td>❌</td>
+    <td>❌</td>
+    <td>❌</td>
+    <td>✔️</td>
+    <td>✔️</td>
+    <td>✔️</td>
+  </tr>
+</table>    <p>It is recommended to make sure all luminaries in a system have be the same FW version. Restart the OTA
   process if there are luminaries with different FW version</p>
   </body>
   </html>
